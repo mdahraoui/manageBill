@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<endpoints xmlns="http://java.sun.com/xml/ns/jaw-ws/runtime" version="2.0">
+   <endpoint name="calculatrice" implementation="fr.aston.poec.formation.jee.ws.impls.Calculatrice">
+       <url-pattern>/cal</url-pattern>
+   </endpoint>
+</endpoints>
